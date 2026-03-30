@@ -48,6 +48,30 @@
             "category": "Egyptian",
             "userId": 1,
             "createdAt": "2026-03-05T14:30:00Z"
+        },
+        {
+            "id": 3,
+            "name": "Ful Medames",
+            "description": "Traditional Egyptian breakfast dish made with slow-cooked fava beans, seasoned with cumin, garlic, lemon, and olive oil.",
+            "badge": "Breakfast",
+            "rating": 4.7,
+            "saved": 1890,
+            "time": 25,
+            "servings": 4,
+            "difficulty": "Easy",
+            "image": "https://picsum.photos/id/1083/800/600",
+            "ingredients": [
+                "Fava Beans",
+                "Garlic",
+                "Cumin",
+                "Lemon Juice",
+                "Olive Oil",
+                "Parsley"
+            ],
+            "instructions": "Cook fava beans until soft. Mash slightly and mix with garlic, cumin, lemon juice and olive oil. Garnish with parsley.",
+            "category": "Egyptian",
+            "userId": 1,
+            "createdAt": "2026-03-30T12:00:00Z"
         }
     ],
     "favorites": [],
