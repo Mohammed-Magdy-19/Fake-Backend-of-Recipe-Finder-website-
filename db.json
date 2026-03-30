@@ -1,0 +1,24 @@
+{
+    "users": [
+        {}
+    ],
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Spaghetti Carbonara",
+            "description": "A classic Roman pasta dish made with eggs, hard cheese, cured pork, and black pepper. Creamy yet simple — a weeknight hero.",
+            "badge": "Main Course",
+            "rating": 4.8,
+            "saved": 1.240
+        }
+    ],
+    "favorites": [
+        {}
+    ],
+    "notifications": [
+        {}
+    ],
+    "stat-data": [
+        {}
+    ]
+}
