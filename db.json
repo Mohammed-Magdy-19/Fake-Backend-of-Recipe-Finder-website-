@@ -1,7 +1,6 @@
 {
-    "users": [
-        {}
-    ],
+    "$schema": "./node_modules/json-server/schema.json",
+    "users": [],
     "recipes": [
         {
             "id": 1,
@@ -9,16 +8,49 @@
             "description": "A classic Roman pasta dish made with eggs, hard cheese, cured pork, and black pepper. Creamy yet simple — a weeknight hero.",
             "badge": "Main Course",
             "rating": 4.8,
-            "saved": 1.240
+            "saved": 1240,
+            "time": 30,
+            "servings": 4,
+            "difficulty": "Medium",
+            "image": "https://picsum.photos/id/292/800/600",
+            "ingredients": [
+                "Spaghetti",
+                "Guanciale",
+                "Pecorino Romano",
+                "Eggs",
+                "Black Pepper"
+            ],
+            "instructions": "Boil spaghetti. Cook guanciale until crispy. Mix eggs and cheese. Combine everything off the heat.",
+            "category": "Italian",
+            "userId": 1,
+            "createdAt": "2026-03-01T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "name": "Koshari",
+            "description": "The national dish of Egypt. A hearty mix of rice, pasta, lentils, chickpeas, and spicy tomato sauce.",
+            "badge": "Main Course",
+            "rating": 4.9,
+            "saved": 2150,
+            "time": 45,
+            "servings": 6,
+            "difficulty": "Easy",
+            "image": "https://picsum.photos/id/1080/800/600",
+            "ingredients": [
+                "Rice",
+                "Pasta",
+                "Brown Lentils",
+                "Chickpeas",
+                "Tomato Sauce",
+                "Fried Onions"
+            ],
+            "instructions": "Cook rice, pasta and lentils separately. Layer them and top with sauce and onions.",
+            "category": "Egyptian",
+            "userId": 1,
+            "createdAt": "2026-03-05T14:30:00Z"
         }
     ],
-    "favorites": [
-        {}
-    ],
-    "notifications": [
-        {}
-    ],
-    "stat-data": [
-        {}
-    ]
+    "favorites": [],
+    "notifications": [],
+    "stat-data": []
 }
